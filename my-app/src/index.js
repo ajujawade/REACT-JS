@@ -1,17 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App2 from './App2';
+import Functionone from './Functionone';
+import FunctionTwo from './FunctionTwo';
+import FunctionThree from './Function3';
+import FunctionFour from './Function4';
+import FunctionFive from './Function5';
+import FunctionSix from './Function6';
+import FunctionSeven from './Function7';
+import FunctionEight from './Function8';
+import ClassBasics from './ClassBasics';
+import ClassProps from './ClassProps';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <App2/> */}
+    {/* <Functionone/> */}
+    {/* <FunctionTwo/> */}
+    {/* <FunctionThree/> */}
+    {/* <FunctionFour greet = "Ajay" greet2 = "Tejas" ></FunctionFour> */}
+    {/* <FunctionFive message = "Hello1" ></FunctionFive> */}
+    {/* <FunctionSix></FunctionSix> */}
+    {/* <FunctionSeven></FunctionSeven> */}
+    {/* <FunctionEight></FunctionEight> */}
+    {/* <ClassBasics></ClassBasics> */}
+    <ClassProps greet = "Ajay" greet2 = "Tejas"></ClassProps>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
