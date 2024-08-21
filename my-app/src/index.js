@@ -1,5 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom/client';
+import ParentC from './ParentC';
+import ParentCC from './ParentCC';
+// import Counter from './Counter';
+
+// import ClassHandler from './Handler';
 // import './index.css';
 // import App from './App';
 // import App2 from './App2';
@@ -30,6 +35,11 @@ root.render(
     {/* <FunctionEight></FunctionEight> */}
     {/* <ClassBasics></ClassBasics> */}
     {/* <ClassProps greet = "Ajay" greet2 = "Tejas"></ClassProps> */}
+    {/* <ClassHandler count = "1"></ClassHandler> */}
+    {/* <Counter></Counter> */}
+    {/* <Fragment></Fragment> */}
+    {/* <ParentC></ParentC> */}
+    <ParentCC></ParentCC>
   </React.StrictMode>
 );
 
